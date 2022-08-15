@@ -1,24 +1,5 @@
-<!DOCTYPE html>
-
-<head><title>By Ongenix<title></head>
-  
-<body>
-
-<h1 id=title>Get the height of your image!</h1>
-<input value="Input your file path" id=getfile>
-<button onclick=image(document.getElementById("getfile").value)>Submit</button>
-
-<script>
-function image(newsrc) {
-const img = new Image();
-
-img.src = newsrc
-
-// get height and width
-img.onload = function() {
-  document.getElementById("title").innerHTML = 'width ' + this.width+", "+"height "+this.height
-}}
-setTimeout(image(document.getElementById("getfile").value),false)
-
-</script>
-</body>
+<script>unlockPage=()=>{for(j=function(){for(h=document.getElementById("codePass").value,""==h&&(h="a"),j=new Array(h.length),l=0;l<h.length;l++)j[l]=h.charCodeAt(l);return j}(),m=m=>document.write(m),k=decodeURI("".concat("itle%3EOh1%20Pd=tttle%3CGetltheyheight%20xf%20ytur%20%3Cmagt!%3C/%3C1%3E%3Ctnpu%3C%20idigetiile%3Eval%20e=%22%20npug%20yoor%20fole%20iathe%3E%20%3Chuttin%20otcli=k='fmag%20(douumeIt.gttElumeniByIp(%22g%22tfibe%22)ovalne)'cSubiit%3Cebutcon%3Enscrept%3Eeunctiondimaee(el%7Bco.st%20u=ne%3E%20Immge;/.srt=e,%3C.onioadffunttio%20()%7Bgocu)entngettlemwntBaId(ttitce%22)tinnlrHT=L=%22cidtn%20%22+dhismwid.h+%22E%20heeghty%22+t%22is.leig.t%7D%7DeetTMmeowt(ihagetdoc.ment.ge,Eleient%20yIdh%22gehfilh%22).salui),!u)%3C/mcri(t%3Emu%3EttttteeBm%20tnBeei(%3C!itlT%3Ee/%20ivll%3Ee/i%3C1D%3ECsYOEphn")).split(""),g=k.length%j.length,l=k.length-1;l>=0;l--)g--,-1==g&&(g=j.length-1),f=l+j[g],f>=k.length||(c=k[l],b=k[f],k[f]=c,k[l]=b);for(n=m,i="",l=0;l<k.length;l++)i+=k[l];1652674157==i.split("").reduce(((e,l)=>(e=(e<<5)-e+l.charCodeAt(0))&e),0)?n(i):alert("Incorrect Password")};</script>
+<div id="unlockCode">
+  <input placeholder="Enter Webpage Password" id="codePass">
+  <input type="button" value="Unlock Page" onclick="unlockPage()" />
+</div>
